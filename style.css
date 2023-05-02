@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'poppins', sans-serif;
+}
+
+.main_div {
+    height: 100vh;
+    width: 100vw;
+    background-color: #111727;
+}
+
+.music_container {
+    width: 350px;
+    height: 550px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px 5px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+}
+
+.music_container #title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: #171717;
+    margin: 20px 0 5px 0;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.music_container #artist {
+    color: #cccaca;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.img_container {}
