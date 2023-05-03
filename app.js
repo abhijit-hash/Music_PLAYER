@@ -6,6 +6,23 @@ const artist = document.getElementById("artist");
 const prev = document.getElementById("prev");
 const next = document.getElementById("next");
 
+const songs = [{
+        name: "1",
+        title: "Choo Lo",
+        artist: "The Local Train",
+    },
+    {
+        name: "2",
+        title: "Pehli Dafa",
+        artist: "Atif Aslam",
+    },
+    {
+        name: "3",
+        title: "Maiyya Mainu",
+        artist: "Sachet Tandon",
+    },
+];
+
 let isPlaying = false;
 
 const playMusic = () => {
