@@ -101,3 +101,17 @@ img {
     color: #111727;
     box-shadow: 0 10px 20px 2px #042a92;
 }
+
+.anime {
+    animation: rotatePlayer 2s linear infinite;
+    -webkit-animation: rotatePlayer 2s linear infinite;
+}
+
+@keyframes rotatePlayer {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
