@@ -48,11 +48,3 @@ play.addEventListener('click', () => {
 
     isPlaying ? pauseMusic() : playMusic();
 });
-const loadSong = (songs) => {
-    title.textContent = songs.title;
-    artist.textContent = songs.artist;
-    music.src = songs.name + ".mp3";
-    img.src = songs.name + ".";
-}
-
-loadSong(songs);
