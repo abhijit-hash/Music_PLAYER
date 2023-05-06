@@ -66,7 +66,9 @@ const nextSong = () => {
 };
 
 const prevSong = () => {
-
+    songIndex = (songIndex - 1 + songs.length) % songs.length;
+    loadSong(songs[songIndex]);
+    playMusic();
 };
 
 next.addEventListener("click", nextSong);
