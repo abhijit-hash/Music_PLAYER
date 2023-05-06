@@ -129,7 +129,7 @@ img {
     border-radius: 50px;
     position: relative;
     margin-top: 5px;
-    transition: width 2s linear;
+    transition: width 1s linear;
     cursor: pointer;
     appearance: none;
 }
@@ -138,11 +138,11 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 0%;
     height: 100%;
     background-color: blue;
     border-radius: 50px;
-    transition: width 2s linear;
+    /*  transition: width 2s linear; */
     cursor: pointer;
     appearance: none;
 }
