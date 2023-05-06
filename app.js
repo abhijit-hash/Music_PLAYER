@@ -62,6 +62,7 @@ songIndex = 0;
 const nextSong = () => {
     songIndex = (songIndex + 1) % songs.length;
     loadSong(songs[songIndex]);
+    playMusic();
 };
 
 const prevSong = () => {
