@@ -51,6 +51,11 @@ const songs = [{
         title: "Aro Ekbar",
         artist: "Rupam Islam",
     },
+    {
+        name: "9",
+        title: "Ei Obelay",
+        artist: "Shironamhin",
+    },
 ];
 
 let isPlaying = false;
