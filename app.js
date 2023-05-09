@@ -85,6 +85,10 @@ music.addEventListener("timeupdate", (events) => {
     //duration update
     let min_duration = Math.floor(duration / 60);
     let sec_duration = Math.floor(duration % 60);
+        
+        if (sec_duration < 10) {
+        sec_duration = `0${sec_duration}`;
+    }
 
     let total_duration = `${min_duration}:${sec_duration}`;
 
