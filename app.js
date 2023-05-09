@@ -41,51 +41,7 @@ const songs = [{
         title: "Hasnuhana",
         artist: "Fossils",
     },
-    {
-        name: "7",
-        title: "Maiyya Mainu",
-        artist: "Sachet Tandon",
-    },
-    {
-        name: "8",
-        title: "Maiyya Mainu",
-        artist: "Sachet Tandon",
-    },
-    {
-        name: "9",
-        title: "Maiyya Mainu",
-        artist: "Sachet Tandon",
-    },
-    {
-        name: "10",
-        title: "Maiyya Mainu",
-        artist: "Sachet Tandon",
-    },
-    {
-        name: "11",
-        title: "Maiyya Mainu",
-        artist: "Sachet Tandon",
-    },
-    {
-        name: "12",
-        title: "Maiyya Mainu",
-        artist: "Sachet Tandon",
-    },
-    {
-        name: "13",
-        title: "Maiyya Mainu",
-        artist: "Sachet Tandon",
-    },
-    {
-        name: "14",
-        title: "Maiyya Mainu",
-        artist: "Sachet Tandon",
-    },
-    {
-        name: "15",
-        title: "Maiyya Mainu",
-        artist: "Sachet Tandon",
-    },
+    
 ];
 
 let isPlaying = false;
