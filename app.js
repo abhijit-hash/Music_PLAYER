@@ -41,7 +41,16 @@ const songs = [{
         title: "Hasnuhana",
         artist: "Fossils",
     },
-    
+    {
+        name: "7",
+        title: "Jannat Jahan",
+        artist: "Rupam Islam, Pritam",
+    },
+    {
+        name: "8",
+        title: "Aro Ekbar",
+        artist: "Rupam Islam",
+    },
 ];
 
 let isPlaying = false;
