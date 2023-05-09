@@ -56,6 +56,11 @@ const songs = [{
         title: "Ei Obelay",
         artist: "Shironamhin",
     },
+    {
+        name: "10",
+        title: "Hashimukh",
+        artist: "Shironamhin",
+    },           
 ];
 
 let isPlaying = false;
