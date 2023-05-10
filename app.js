@@ -60,7 +60,32 @@ const songs = [{
         name: "10",
         title: "Hashimukh",
         artist: "Shironamhin",
-    },           
+    }, 
+   {
+        name: "11",
+        title: "Bekhayali",
+        artist: "Sachet Tandon",
+    },
+    {
+        name: "12",
+        title: "Ilahi",
+        artist: "Pritam, Arijit Singh",
+    },
+    {
+        name: "13",
+        title: "Sunn Raha Hai",
+        artist: "Ankit Tiwari",
+    },
+    {
+        name: "14",
+        title: "Kyaa Baat Haii2.0",
+        artist: "Harrdy Sandhu",
+    },
+    {
+        name: "15",
+        title: "Ae Dil Hai Mushkil",
+        artist: "Pritam, Arijit Singh",
+    },            
 ];
 
 let isPlaying = false;
